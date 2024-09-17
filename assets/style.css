@@ -25,7 +25,7 @@
    }
    
    ul {
-    padding-left: 40px;
+    padding: 40px;
     font-size: 20px;
    }
    
@@ -34,9 +34,37 @@
     font-size: 30px;
    }
 
+   main {
+    padding-top: 130px;
+   }
+
    .card {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
   }
+
+  #navStyle {
+    position: "sticky";
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: "50px";
+    height: "30px";
+    background-color: "#333";
+    border: 2px solid #333399;
+  };
+
+  #ulStyle {
+    display: "block";
+    justify-content: "center";
+    list-style-type: "none";
+  };
+
+  .sectionStyle {
+    height: "100vh";
+    padding: "2rem";
+    border-bottom: "1px solid #ccc";
+  };
