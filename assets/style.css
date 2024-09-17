@@ -40,3 +40,23 @@
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
   }
+
+  #navStyle {
+    position: "sticky";
+    top: 0;
+    width: "100%";
+    background-color: "#333";
+    border: 2px solid #333399;
+  };
+
+  #ulStyle {
+    display: "block";
+    justify-content: "center";
+    list-style-type: "none";
+  };
+
+  .sectionStyle {
+    height: "100vh";
+    padding: "2rem";
+    border-bottom: "1px solid #ccc";
+  };
