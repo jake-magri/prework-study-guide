@@ -8,14 +8,19 @@
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="header">
+    <header>
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
-      <!--Mount Point for React NavBar-->
-      <div id="root"></div>
-      <!--End-->
     </header>
+    <nav id="navbar">
+      <ul>
+          <li><a class="sectionStyle" href="#html-section">HTML</a></li>
+          <li><a class="sectionStyle" href="#css-section">CSS</a></li>
+          <li><a class="sectionStyle" href="#git-section">Git</a></li>
+          <li><a class="sectionStyle" href="#javascript-section">JavaScript</a></li>
+      </ul>
+     </nav> 
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
@@ -54,16 +59,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
-
-    <!-- React and ReactDOM integration sourced from ChatGPT-->
-    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
-    <!--End-->
-
-    <!--Babel for JSX support sourced from ChatGPT-->
-    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
-    <!--End-->
-    <script type="text/babel" src="./assets/navbar.js"></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>
